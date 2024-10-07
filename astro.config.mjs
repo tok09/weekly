@@ -26,7 +26,7 @@ function getWeeklyDate(num) {
 }
 
 function getTwitterImage(num) {
-	return num >= 110 ? `https://tok09.github.io/tok09/assets/${num}.jpg` : undefined;
+	return num >= 110 ? `https://tok09.github.io/weekly/assets/${num}.jpg` : undefined;
 }
 
 function defaultLayoutPlugin() {
